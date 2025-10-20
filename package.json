@@ -1,0 +1,19 @@
+{
+  "name": "little-brother-godrick",
+  "version": "1.0.0",
+  "description": "Discord AI chatbot with Godrick personality",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy": "node src/deploy-commands.js"
+  },
+  "keywords": ["discord", "bot", "ai", "chatbot"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "@anthropic-ai/sdk": "^0.32.1"
+  }
+}
